@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NewtonBot (Beta)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>NewtonBot <span class="beta">(Beta)</span></h1>
+      <div class="controls">
+        <select id="theme-select">
+          <option value="light">Светлая</option>
+          <option value="dark">Тёмная</option>
+          <option value="ocean">Океан</option>
+          <option value="sunset">Закат</option>
+        </select>
+      </div>
+    </header>
+
+    <main id="chat-window">
+      <div class="message bot">
+        <div class="avatar">🧠</div>
+        <div class="bubble">Здравствуйте! Я NewtonBot — эксперт с глубоким мышлением. Задайте вопрос.</div>
+      </div>
+    </main>
+
+    <footer>
+      <form id="chat-form">
+        <input type="text" id="user-input" placeholder="Введите сообщение..." autocomplete="off">
+        <button type="submit">➤</button>
+      </form>
+    </footer>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
